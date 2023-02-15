@@ -1,7 +1,7 @@
 import "./App.css";
 import styles from "./styles.module.css";
 import Button from "./Button";
-import Input from "./input";
+import Input from "./Search";
 
 function App() {
   return (
