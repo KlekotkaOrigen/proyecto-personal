@@ -1,0 +1,55 @@
+.main {
+    background-color: rgb(192, 42, 42);
+}
+
+
+.header  {
+    background-color: rgb(27, 131, 27);
+    height: 110px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerRight {
+    display: flex;
+    flex-direction: column;
+}
+
+.logoimg {
+    width: 100px;
+    height: 100px;
+}
+
+.user {
+    display: flex;
+}
+
+.cuenta {
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+}
+
+.carro {
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+}
+
+.datos {
+    margin: 5px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: blue; 
+}
+
+search {
+
+}

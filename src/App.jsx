@@ -1,34 +1,43 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import "./App.css";
+import styles from "./styles.module.css";
+import Button from "./Button";
+import Input from "./input";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className={styles.main}>
+      <header className={styles.header}>
+        <div className={styles.logo}>
+          <img
+            className={styles.logoimg}
+            src="./logo.png"
+            alt="Esto es el logo de KL VENTAS con palmeras y fondo azul"
+          />
+        </div>
+        <section className={styles.headerRight}>
+          <div className={styles.datos}>
+            <div>🌏 Adolfo Alsina 1616 - CABA</div>
+            <div>📲 15-2608-1306</div>
+            <div>📬 CONTACTO WEB</div>
+          </div>
+          <section className={styles.user}>
+            <img className={styles.carro} src="./carro.png" alt="Este es su carro de compras" />
+            <img className={styles.cuenta} src="./user.png" alt="Este es el icono de su cuenta" />
+          </section>
+        </section>
+      </header>
+      <div className={styles.menu}>
+        <Button>PRODUCTOS</Button>
+        <Input className={styles.search}/>
+        <Button>FORMAS DE PAGO</Button>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <footer>
+        <div>LA EMPRESA</div>
+        <div>FACEBOOK INSTAGRAM</div>
+        <div>GOOGLE MAPS</div>
+      </footer>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
