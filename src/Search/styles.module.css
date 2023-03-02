@@ -1,6 +1,6 @@
 .inputWrapper {
     position: relative;
-    width: 80%;
+    width: 50%;
 }
 
 .input {
@@ -8,6 +8,7 @@
     color: #191919;
     padding: 15px 15px 15px 35px;
     width: 100%;
+    border-radius: 15px;
 }
 
 .inputIcon {

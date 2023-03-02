@@ -18,6 +18,7 @@ function App() {
             alt="Esto es el logo de KL VENTAS con palmeras y fondo azul"
           />
         </div>
+        <Input className={styles.search} />
         <section className={styles.headerRight}>
           <img
             className={styles.carro}
@@ -29,9 +30,6 @@ function App() {
             src="./user.png"
             alt="Este es el icono de su cuenta"
           />
-          <section className={styles.user}>
-            <Input className={styles.search} />
-          </section>
         </section>
       </header>
       <div className={styles.menu}>
