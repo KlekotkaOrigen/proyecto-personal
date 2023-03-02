@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 const Input = (props) => {
   return (
     <div className={styles.inputWrapper}>
-      <input type="search" className={styles.input} placeholder="Buscar" />
+      <input type="search" className={styles.input} placeholder="Busca lo que necesites" />
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className={styles.inputIcon}
