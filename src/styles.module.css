@@ -87,3 +87,8 @@ footer {
     max-width: 5vw;
     max-height: 5vh;
 }
+
+.carouselImage {
+    width: auto !important;
+    height: 100% !important;
+}
