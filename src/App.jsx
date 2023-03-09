@@ -1,13 +1,10 @@
 import "./App.css";
-import ReactModal from "react-modal";
 import styles from "./styles.module.css";
-import Button from "./Button";
 import Input from "./Search";
-import { useState } from "react";
 import Carousel from "./carousel";
+import Menu from "./Menu";
 
 function App() {
-  const [isPricesOpen, setPricesOpen] = useState(false);
 
   return (
     <div className={styles.main}>
@@ -21,36 +18,25 @@ function App() {
         </div>
         <Input className={styles.search} />
         <section className={styles.headerRight}>
-          <img
-            className={styles.carro}
-            src="./carro.png"
-            alt="Este es su carro de compras"
-          />
-          <img
-            className={styles.cuenta}
-            src="./user.png"
-            alt="Este es el icono de su cuenta"
-          />
+          <div className={styles.headerRow}>
+            <img
+              className={styles.carro}
+              src="./carro.png"
+              alt="Este es su carro de compras"
+            />
+            <div>Carro de compras</div>
+          </div>
+          <div className={styles.headerRow}>
+            <img
+              className={styles.cuenta}
+              src="./user.png"
+              alt="Este es el icono de su cuenta"
+            />
+            <div>Cuenta de usuario</div>
+          </div>
         </section>
       </header>
-      <div className={styles.menu}>
-        <Button>PRODUCTOS</Button>
-        <Button onClick={() => setPricesOpen(true)}>FORMAS DE PAGO</Button>
-        <ReactModal
-          overlayClassName={styles.modalOverlay}
-          className={styles.modal}
-          isOpen={isPricesOpen}
-          onRequestClose={() => setPricesOpen(false)}
-        >
-          <img
-            src="./pago.jpg"
-            alt="formas de pago tarjetar de credito y debito, transferencia bancarias"
-          />
-          <button className={styles.close} onClick={() => setPricesOpen(false)}>
-            <img src="./close.png" alt="Boton para cerrar" />
-          </button>
-        </ReactModal>
-      </div>
+      <Menu />
       <Carousel>
         <div>
           <img className={styles.carouselImage} src="./1.JPG" />
