@@ -1,13 +1,15 @@
 import Button from "../Button";
 import styles from "./styles.module.css";
-import { useState } from "react";
-
+import { useState, useContext } from "react";
+import { context } from "../components/contexts/DolarContext";
 import ReactModal from "react-modal";
 
 const Menu = props => {
   const [isPricesOpen, setPricesOpen] = useState(false);
   const [isProductsOpen, setProductsOpen] = useState(false);
-  
+  const valor = useContext (context)
+  console.log("VALOR DEL CONTEXTO", valor)
+
   return (
     <div className={styles.main}>
         <div className={styles.menuButton}>
@@ -35,6 +37,7 @@ const Menu = props => {
             <img src="./close.png" alt="Boton para cerrar" />
           </button>
         </ReactModal>
+        <button>VALOR DEL DOLAR{valor}</button>
       </div>
   )
 }

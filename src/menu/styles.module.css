@@ -41,12 +41,14 @@
 
 .menuButton {
   position: relative;
+  
 }
 .menuButton ul{
   position:absolute
 }
 .productsOpen {
   display: block;
+  background-color: aliceblue;
 }
 .productsClosed {
   display:none
