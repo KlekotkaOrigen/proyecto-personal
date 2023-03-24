@@ -3,6 +3,7 @@ import styles from "./styles.module.css";
 import Input from "./Search";
 import Carousel from "./carousel";
 import Menu from "./Menu";
+import User from "./user";
 
 function App() {
 
@@ -17,24 +18,7 @@ function App() {
           />
         </div>
         <Input className={styles.search} />
-        <section className={styles.headerRight}>
-          <div className={styles.headerRow}>
-            <img
-              className={styles.carro}
-              src="./carro.png"
-              alt="Este es su carro de compras"
-            />
-            <div>Carro de compras</div>
-          </div>
-          <div className={styles.headerRow}>
-            <img
-              className={styles.cuenta}
-              src="./user.png"
-              alt="Este es el icono de su cuenta"
-            />
-            <div>Cuenta de usuario</div>
-          </div>
-        </section>
+        <User className={styles.headerRight}/>
       </header>
       <Menu />
       <Carousel>
