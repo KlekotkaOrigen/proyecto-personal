@@ -15,9 +15,13 @@ const Menu = props => {
         <div className={styles.menuButton}>
           <Button onClick={() => setProductsOpen(!isProductsOpen)}>PRODUCTOS</Button>
           <ul className={isProductsOpen ? styles.productsOpen : styles.productsClosed}>
-            <li>lalala</li>
-            <li>lelele</li>
-            <li>lilili</li>
+            <li>INSUMOS COMPUTACIÓN</li>
+            <li>REPUESTOS COMPUTACION</li>
+            <li>ACCESORIOS CELULARES</li>
+            <li>REPUESTOS CELULARES</li>
+            <li>ARTÍCULOS USADOS</li>
+            <li>PRODUCTOS PROPIOS</li>
+            <li>OUTLET</li>
           </ul>
         </div>
         <div>
@@ -37,7 +41,7 @@ const Menu = props => {
             <img src="./close.png" alt="Boton para cerrar" />
           </button>
         </ReactModal>
-        <button>VALOR DEL DOLAR{valor}</button>
+        <button className={styles.dolar}>U$D: {valor}</button>
       </div>
   )
 }

@@ -48,8 +48,11 @@
 }
 .productsOpen {
   display: block;
-  background-color: aliceblue;
+  background-color: rgb(40, 84, 122);
+  z-index: 999999;
+  list-style-type: none;
 }
+
 .productsClosed {
   display:none
 }
