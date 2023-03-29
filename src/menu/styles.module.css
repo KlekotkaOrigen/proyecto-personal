@@ -41,18 +41,32 @@
 
 .menuButton {
   position: relative;
-  
 }
-.menuButton ul{
-  position:absolute
+.menuButton ul {
+  position: absolute;
 }
+
 .productsOpen {
   display: block;
-  background-color: rgb(40, 84, 122);
   z-index: 999999;
   list-style-type: none;
+  text-align: left;
+  line-height: 1.5;
+  width: max-content;
 }
 
 .productsClosed {
-  display:none
+  display: none;
+}
+
+ul {
+  background: #0d2944;
+  padding: 5px;
+}
+
+.productsOpen .productos {
+  background-color: #cce5ff;
+  color: rgb(0, 0, 0);
+  margin: 5px;
+  z-index: 999999;
 }

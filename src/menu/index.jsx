@@ -3,6 +3,7 @@ import styles from "./styles.module.css";
 import { useState, useContext } from "react";
 import { context } from "../components/contexts/DolarContext";
 import ReactModal from "react-modal";
+import { Link } from "react-router-dom";
 
 const Menu = props => {
   const [isPricesOpen, setPricesOpen] = useState(false);
@@ -15,13 +16,13 @@ const Menu = props => {
         <div className={styles.menuButton}>
           <Button onClick={() => setProductsOpen(!isProductsOpen)}>PRODUCTOS</Button>
           <ul className={isProductsOpen ? styles.productsOpen : styles.productsClosed}>
-            <li>INSUMOS COMPUTACIÓN</li>
-            <li>REPUESTOS COMPUTACION</li>
-            <li>ACCESORIOS CELULARES</li>
-            <li>REPUESTOS CELULARES</li>
-            <li>ARTÍCULOS USADOS</li>
-            <li>PRODUCTOS PROPIOS</li>
-            <li>OUTLET</li>
+            <li className={styles.productos}><Link to="computacion">COMPUTACIÓN</Link></li>
+            <li className={styles.productos}>REPUESTOS COMPUTACION</li>
+            <li className={styles.productos}>ACCESORIOS CELULARES</li>
+            <li className={styles.productos}>REPUESTOS CELULARES</li>
+            <li className={styles.productos}>ARTÍCULOS USADOS</li>
+            <li className={styles.productos}>PRODUCTOS PROPIOS</li>
+            <li className={styles.productos}>OUTLET</li>
           </ul>
         </div>
         <div>
