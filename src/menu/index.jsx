@@ -19,7 +19,7 @@ const Menu = props => {
             <li className={styles.productos}><Link to="computacion">COMPUTACIÓN</Link></li>
             <li className={styles.productos}><Link to="repuestoscomp">REPUESTOS COMPUTACION</Link></li>
             <li className={styles.productos}><Link to="acccelulares">ACCESORIOS CELULARES</Link></li>
-            <li className={styles.productos}><Link to="repuestoscel">ERPUESTOS CELULARES</Link></li>
+            <li className={styles.productos}><Link to="repuestoscel">REPUESTOS CELULARES</Link></li>
             <li className={styles.productos}><Link to="usados">ARTÍCULOS USADOS</Link></li>
             <li className={styles.productos}><Link to="propios">PRODUCTOS PROPIOS</Link></li>
             <li className={styles.productos}><Link to="outlet">OUTLET</Link></li>
