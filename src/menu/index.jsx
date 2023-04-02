@@ -17,12 +17,12 @@ const Menu = props => {
           <Button onClick={() => setProductsOpen(!isProductsOpen)}>PRODUCTOS</Button>
           <ul className={isProductsOpen ? styles.productsOpen : styles.productsClosed}>
             <li className={styles.productos}><Link to="computacion">COMPUTACIÓN</Link></li>
-            <li className={styles.productos}>REPUESTOS COMPUTACION</li>
-            <li className={styles.productos}>ACCESORIOS CELULARES</li>
-            <li className={styles.productos}>REPUESTOS CELULARES</li>
-            <li className={styles.productos}>ARTÍCULOS USADOS</li>
-            <li className={styles.productos}>PRODUCTOS PROPIOS</li>
-            <li className={styles.productos}>OUTLET</li>
+            <li className={styles.productos}><Link to="repuestoscomp">REPUESTOS COMPUTACION</Link></li>
+            <li className={styles.productos}><Link to="acccelulares">ACCESORIOS CELULARES</Link></li>
+            <li className={styles.productos}><Link to="repuestoscel">ERPUESTOS CELULARES</Link></li>
+            <li className={styles.productos}><Link to="usados">ARTÍCULOS USADOS</Link></li>
+            <li className={styles.productos}><Link to="propios">PRODUCTOS PROPIOS</Link></li>
+            <li className={styles.productos}><Link to="outlet">OUTLET</Link></li>
           </ul>
         </div>
         <div>
