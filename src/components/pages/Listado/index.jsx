@@ -19,11 +19,14 @@ useEffect(() => {
 }, []);
 const { categoria } = useParams();
 
-  // return productos.map(producto => producto.nombre)
-return (productos
-    .filter((producto) => producto.categoria.includes(categoria))
-    .map((producto) => <img key={producto.id} src={producto.photo} />)
-    )
+return (
+    productos.map(producto =>
+        <article key={producto.id}>
+            <h2>{producto.nombre}</h2>
+            <img src="producto.foto" />
+            <p>{producto.descripcion}</p>
+        </article>)
+)
 };
 
 export default Listado;
