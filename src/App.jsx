@@ -3,7 +3,8 @@ import styles from "./styles.module.css";
 import Input from "./Search";
 import Menu from "./Menu";
 import User from "./user";
-import { Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
+// import Logo from "./components/logo"
 
 function App() {
 
@@ -11,11 +12,13 @@ function App() {
     <div className={styles.main}>
       <header className={styles.header}>
         <div className={styles.logo}>
+          <Link to="/">
           <img
             className={styles.logoimg}
             src="./logo.png"
             alt="Esto es el logo de KL VENTAS con palmeras y fondo azul"
           />
+          </Link>
         </div>
         <Input className={styles.search} />
         <User className={styles.headerRight}/>

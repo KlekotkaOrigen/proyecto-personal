@@ -1,0 +1,29 @@
+.logoimg {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+a:link {
+    color: #000000;
+}
+
+a:visited {
+    color: #000000;
+}
+
+a:focus {
+    border-bottom: none;
+    background: black;
+}
+
+a:hover {
+    background-color: rgb(0, 0, 0);
+    border-bottom: none;
+    text-decoration: none;
+}
+
+a:active {
+    background: #265301;
+    color: none;
+}
