@@ -23,7 +23,7 @@ return (
     productos.map(producto =>
         <article key={producto.id}>
             <h2>{producto.nombre}</h2>
-            <img src="producto.foto" />
+            <img src="producto.photo" />
             <p>{producto.descripcion}</p>
         </article>)
 )
