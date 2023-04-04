@@ -3,12 +3,12 @@
   -moz-border-radius: 14;
   border-radius: 14px;
   text-shadow: 3px 2px 1px #9daef5;
-  -webkit-box-shadow: 6px 5px 24px #666666;
-  -moz-box-shadow: 6px 5px 24px #666666;
+  -webkit-box-shadow: 6px 5px 12px #666666;
+  -moz-box-shadow: 6px 5px 12px #666666;
   box-shadow: 6px 5px 24px #666666;
   font-size: 12px;
   font-weight: bold;
-  padding: 10px;
+  padding: 12px;
   text-decoration: none;
   background-image: -webkit-linear-gradient(top, #eb94d0, #2079b0);
   background-image: -moz-linear-gradient(top, #eb94d0, #2079b0);

@@ -1,7 +1,13 @@
 .main {
   display: flex;
   justify-content: left;
-  margin-bottom: 10px;
+  align-items: center;
+  background: rgb(224,220,77);
+  background: linear-gradient(90deg,
+  rgba(224,220,77,1) 0%,
+  rgba(33,124,186,1) 50%,
+  rgba(44,162,27,1) 100%
+  );
 }
 
 .modal {
@@ -41,9 +47,11 @@
 
 .menuButton {
   position: relative;
+  margin: 10px;
 }
 .menuButton ul {
   position: absolute;
+  margin: 10px;
 }
 
 .productsOpen {
