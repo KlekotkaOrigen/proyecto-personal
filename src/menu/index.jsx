@@ -62,7 +62,7 @@ const Menu = (props) => {
           <img src="./close.png" alt="Boton para cerrar" />
         </button>
       </ReactModal>
-      <button className={styles.dolar}>U$D: {valor}</button>
+      <button className={styles.dolar}>{valor} US$</button>
     </div>
   );
 };
