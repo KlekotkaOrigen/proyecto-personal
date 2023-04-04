@@ -26,12 +26,6 @@
     flex-direction: column;
 }
 
-.logoimg {
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-}
-
 .carro {
     width: 50px;
     height: 50px;
@@ -49,7 +43,19 @@
 
 
 footer {
-    background-color: blue;
+    background: rgb(224,220,77);
+    background: linear-gradient(90deg,
+    rgba(224,220,77,1) 0%,
+    rgba(33,124,186,1) 50%,
+    rgba(44,162,27,1) 100%
+    );
+}
+
+
+.logoimg {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
 }
 
 a:link {

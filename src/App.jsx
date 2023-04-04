@@ -11,6 +11,7 @@ function App() {
   return (
     <div className={styles.main}>
       <header className={styles.header}>
+        {/* <Logo /> */}
         <div className={styles.logo}>
           <Link to="/">
           <img

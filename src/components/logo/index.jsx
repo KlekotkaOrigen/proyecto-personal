@@ -1,8 +1,7 @@
 import styles from "./components/logo/styles.module.css";
 import { Link } from "react-router-dom";
 
-const Logo = () => {
-return (
+const Logo = () => (
     <div className={styles.logo}>
     <Link to="/">
         <img
@@ -13,6 +12,5 @@ return (
     </Link>
     </div>
 );
-};
 
 export default Logo;
