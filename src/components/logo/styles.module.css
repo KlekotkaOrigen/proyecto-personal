@@ -5,25 +5,46 @@
 }
 
 a:link {
-    color: #000000;
+    background-color: none;
+    border-bottom: none;
+    text-decoration: none;
+    color: none;
+    outline: none;
+    box-shadow: none;
 }
 
 a:visited {
-    color: #000000;
+    background-color: none;
+    border-bottom: none;
+    text-decoration: none;
+    color: none;
+    outline: none;
+    box-shadow: none;
 }
 
 a:focus {
+    background-color: none;
     border-bottom: none;
-    background: black;
+    text-decoration: none;
+    color: none;
+    outline: none;
+    box-shadow: none;
 }
 
 a:hover {
-    background-color: rgb(0, 0, 0);
+    background-color: none;
     border-bottom: none;
     text-decoration: none;
+    color: none;
+    outline: none;
+    box-shadow: none;
 }
 
 a:active {
-    background: #265301;
+    background-color: none;
+    border-bottom: none;
+    text-decoration: none;
     color: none;
+    outline: none;
+    box-shadow: none;
 }

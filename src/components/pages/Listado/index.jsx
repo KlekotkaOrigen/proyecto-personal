@@ -1,3 +1,4 @@
+import styles from "./styles.module.css"
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import * as csv from "csvtojson";
