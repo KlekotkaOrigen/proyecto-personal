@@ -1,7 +1,7 @@
-import Button from "../components/Button";
+import Button from "../Button";
 import styles from "./styles.module.css";
 import { useState, useContext } from "react";
-import { context } from "../components/contexts/DolarContext";
+import { context } from "../contexts/DolarContext";
 import ReactModal from "react-modal";
 import { Link } from "react-router-dom";
 

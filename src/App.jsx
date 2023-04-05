@@ -1,7 +1,7 @@
 import "./App.css";
 import styles from "./styles.module.css";
 import Input from "./components/Search";
-import Menu from "./Menu";
+import Menu from "./components/menu";
 import User from "./components/user";
 import { Link, Outlet } from "react-router-dom";
 import Logo from "./components/logo"
