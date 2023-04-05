@@ -1,8 +1,8 @@
 import "./App.css";
 import styles from "./styles.module.css";
-import Input from "./Search";
+import Input from "./components/Search";
 import Menu from "./Menu";
-import User from "./user";
+import User from "./components/user";
 import { Link, Outlet } from "react-router-dom";
 import Logo from "./components/logo"
 import Pie from "./components/pie"

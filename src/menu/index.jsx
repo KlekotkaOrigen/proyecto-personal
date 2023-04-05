@@ -1,4 +1,4 @@
-import Button from "../Button";
+import Button from "../components/Button";
 import styles from "./styles.module.css";
 import { useState, useContext } from "react";
 import { context } from "../components/contexts/DolarContext";
