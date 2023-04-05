@@ -11,12 +11,14 @@ import {
 } from "react-router-dom";
 import Home from "./components/pages/Home";
 import Listado from "./components/pages/Listado";
+import Empresa from "./components/pages/Empresa";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index element={<Home />} />
-      <Route path=":categoria" element={<Listado />} />
+      <Route path="listado/:categoria" element={<Listado />} />
+      <Route path="empresa" element={<Empresa />} />
     </Route>
   )
 );

@@ -5,14 +5,14 @@ const User = () => (
         <div>
         <img
             className={styles.carro}
-            src="./carro.png"
+            src="/carro.png"
             alt="Este es su carro de compras"
         />
         </div>
         <div>
         <img
             className={styles.cuenta}
-            src="./user.png"
+            src="/user.png"
             alt="Este es el icono de su cuenta"
         />
         </div>
@@ -24,7 +24,7 @@ const User = () => (
 //     <div className={styles.headerRow}>
 //     <img
 //         className={styles.carro}
-//         src="./carro.png"
+//         src="/carro.png"
 //         alt="Este es su carro de compras"
 //     />
 //     <div>Carro de compras</div>
@@ -32,7 +32,7 @@ const User = () => (
 //     <div className={styles.headerRow}>
 //     <img
 //         className={styles.cuenta}
-//         src="./user.png"
+//         src="/user.png"
 //         alt="Este es el icono de su cuenta"
 //     />
 //     <div>Cuenta de usuario</div>

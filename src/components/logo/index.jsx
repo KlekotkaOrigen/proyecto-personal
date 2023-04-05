@@ -6,7 +6,7 @@ const Logo = () => (
     <Link to="/">
         <img
         className={styles.logoimg}
-        src="./logo.png"
+        src="/logo.png"
         alt="Esto es el logo de KL VENTAS con palmeras y fondo azul"
         />
     </Link>

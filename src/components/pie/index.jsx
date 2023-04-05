@@ -7,7 +7,7 @@ const Pie = () => (
     <Link to="empresa" target="_blank" rel="noopener noreferrer">
         <img
         className={styles.comp}
-        src="./company.png"
+        src="/company.png"
         alt="Presiona aquí para obtener informacion de nuestra empresa"
         />
     </Link>
@@ -20,7 +20,7 @@ const Pie = () => (
     >
         <img
         className={styles.face}
-        src="./face.png"
+        src="/face.png"
         alt="Presiona aquí para dirigirte a nuestra pagina de Facebook"
         />
     </Link>
@@ -38,7 +38,7 @@ const Pie = () => (
     >
         <img
         className={styles.insta}
-        src="./insta.png"
+        src="/insta.png"
         alt="Presiona aquí para dirigirte a nuestro instagram"
         />
     </Link>

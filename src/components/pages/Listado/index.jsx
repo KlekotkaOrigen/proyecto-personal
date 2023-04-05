@@ -6,7 +6,9 @@ import * as csv from "csvtojson";
 const PRODUCTS_URL =
 "https://docs.google.com/spreadsheets/d/e/2PACX-1vQnrtnTqpzr-izreIsykOv1uIcxUWJ7ic295jClos-bjpJwK-LfORpGQCALOiZs2e1lUJKFaVtPU-c7/pub?output=csv";
 const Listado = () => {
+const { categoria } = useParams();
 const [productos, setProductos] = useState([]);
+
 useEffect(() => {
     fetch(PRODUCTS_URL)
     .then((response) => response.text())
@@ -15,10 +17,11 @@ useEffect(() => {
         objetos.forEach(
         (objeto) => (objeto.categoria = objeto.categoria.split(","))
         );
-        setProductos(objetos);
+        setProductos(objetos.filter(
+            objeto => objeto.categoria.includes(categoria)
+        ));
     });
-}, []);
-const { categoria } = useParams();
+}, [categoria]);
 
 return (
     productos.map(producto =>
