@@ -1,12 +1,12 @@
-.bloque {
+/* .bloque {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-};
+}; */
 
 .h1 {
-    background-color: rebeccapurple
+    background-color: rebeccapurple;
 };
 
 .parrafo {
@@ -19,4 +19,11 @@
     line-height: 10px;
     text-align: center;
     color: red;
+};
+
+.bloque {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 };
