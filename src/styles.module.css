@@ -27,6 +27,9 @@
 }
 
 footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
     background: rgb(224,220,77);
     background: linear-gradient(90deg,
     rgba(224,220,77,1) 0%,
