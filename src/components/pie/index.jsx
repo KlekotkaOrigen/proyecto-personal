@@ -28,7 +28,9 @@ const Pie = () => (
     <section className={styles.datos}>
     <div className={styles.dir}>📧 klventasyenvios@gmail.com</div>
     <div className={styles.tel}>📲 15-2608-1306</div>
-    <div className={styles.web}>📬 CONTACTO WEB</div>
+    <div className={styles.web}>
+    <Link to="contacto" target="_blank" rel="noopener noreferrer">📬 CONTACTO WEB</Link>
+    </div>
     </section>
     <div>
     <Link
