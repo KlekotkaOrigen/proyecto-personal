@@ -118,7 +118,7 @@ a:active {
   font-weight: bold;
   letter-spacing: 1px;
   text-shadow: -2px -2px 2px #ff0000, 2px 2px 2px #ff0000, -2px 2px 2px #ff0000, 2px -2px 2px #ff0000;
-  background-image: url("./dolar.jpg");
+  background-image: url("/dolar.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   /* text-shadow: 3px 2px 1px #00ad09; */
