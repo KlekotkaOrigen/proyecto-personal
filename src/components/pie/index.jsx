@@ -29,7 +29,7 @@ const Pie = () => (
     <div className={styles.dir}>📧 klventasyenvios@gmail.com</div>
     <div className={styles.tel}>📲 15-2608-1306</div>
     <div className={styles.web}>
-    <Link to="contacto" target="_blank" rel="noopener noreferrer">📬 CONTACTO WEB</Link>
+    <Link to="contacto">📬 CONTACTO WEB</Link>
     </div>
     </section>
     <div>

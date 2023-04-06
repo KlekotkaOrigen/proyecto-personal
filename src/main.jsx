@@ -12,6 +12,7 @@ import {
 import Home from "./components/pages/Home";
 import Listado from "./components/pages/Listado";
 import Empresa from "./components/pages/Empresa";
+import Contacto from "./components/pages/Contacto";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -19,6 +20,7 @@ const router = createBrowserRouter(
       <Route index element={<Home />} />
       <Route path="listado/:categoria" element={<Listado />} />
       <Route path="empresa" element={<Empresa />} />
+      <Route path="contacto" element={<Contacto />} />
     </Route>
   )
 );
