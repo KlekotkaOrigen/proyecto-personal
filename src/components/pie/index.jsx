@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Pie = () => (
 <div className={styles.pie}>
     <div>
-    <Link to="empresa" target="_blank" rel="noopener noreferrer">
+    <Link to="empresa">
         <img
         className={styles.comp}
         src="/company.png"
