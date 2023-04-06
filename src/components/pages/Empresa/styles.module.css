@@ -1,0 +1,22 @@
+.bloque {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+};
+
+.h1 {
+    background-color: rebeccapurple
+};
+
+.parrafo {
+    line-height: 10px;
+    text-align: center;
+    color: red;
+};
+
+.p {
+    line-height: 10px;
+    text-align: center;
+    color: red;
+};
