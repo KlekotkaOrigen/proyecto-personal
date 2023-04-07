@@ -1,4 +1,4 @@
-import styles from "./styles.module.css"
+import styles from "./styles.module.css";
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import * as csv from "csvtojson";
@@ -25,9 +25,9 @@ useEffect(() => {
 
 return (
     productos.map(producto =>
-        <article key={producto.id}>
+        <article className={styles.item} key={producto.id}>
             <h2>{producto.nombre}</h2>
-            <img src="producto.photo" />
+            <img className={styles.foto} src={producto.photo} />
             <p>{producto.descripcion}</p>
         </article>)
 )
