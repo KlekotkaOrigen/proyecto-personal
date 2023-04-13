@@ -27,7 +27,7 @@ emailjs
 
 return (
     <div>
-    <h1>Contact Form</h1>{" "}
+    <h1>Contacto Web</h1>{" "}
     <form className="cf" ref={form} onSubmit={sendEmail}>
         {" "}
         <div className="half left cf">
