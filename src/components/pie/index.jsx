@@ -45,7 +45,19 @@ const Pie = () => (
         />
     </Link>
     </div>
-    <div>GOOGLE MAPS</div>
+    <div>
+    <Link
+        to="https://api.whatsapp.com/send?phone=541526081306"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        <img
+        className={styles.whats}
+        src="/whats.png"
+        alt="Presiona aquí para dirigirte a nuestra pagina de Facebook"
+        />
+    </Link>
+    </div>
 </div>
 );
 
