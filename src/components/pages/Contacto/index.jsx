@@ -2,28 +2,29 @@ import styles from "./styles.module.css";
 import { React, useRef } from "react";
 import emailjs from "@emailjs/browser";
 
-// const form = useRef();
-// const sendEmail = (e) => {
-// e.preventDefault();
-// emailjs
-//     .sendForm(
-//     process.env.REACT_APP_SERVICE_ID,
-//     process.env.REACT_APP_TEMPLATE_ID,
-//     form.current,
-//     process.env.REACT_APP_PUBLIC_KEY
-//     )
-//     .then(
-//     (result) => {
-//         alert("message sent successfully...");
-//         console.log(result.text);
-//     },
-//     (error) => {
-//         console.log(error.text);
-//     }
-//     );
-// };
-
 const Contacto = () => {
+console.log(import.meta.env.VITE_PUBLIC_KEY)
+const form = useRef();
+const sendEmail = (e) => {
+e.preventDefault();
+emailjs
+    .sendForm(
+    import.meta.env.VITE_SERVICE_ID,
+    import.meta.env.VITE_TEMPLATE_ID,
+    form.current,
+    import.meta.env.VITE_PUBLIC_KEY
+    )
+    .then(
+    (result) => {
+        alert("message sent successfully...");
+        console.log(result.text);
+    },
+    (error) => {
+        console.log(error.text);
+    }
+    );
+};
+
 return (
     <div>
     <h1>Contact Form</h1>{" "}

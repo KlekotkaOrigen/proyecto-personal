@@ -22,25 +22,25 @@ const Menu = (props) => {
             isProductsOpen ? styles.productsOpen : styles.productsClosed
           }
         >
-          <li className={styles.productos} onClick={styles.productsClosed}>
+          <li className={styles.productos}>
             <Link to="listado/computacion">COMPUTACIÓN</Link>
           </li>
-          <li className={styles.productos} onClick={styles.productsClosed}>
+          <li className={styles.productos}>
             <Link to="listado/repuestoscomp">REPUESTOS COMPUTACION</Link>
           </li>
-          <li className={styles.productos} onClick={styles.productsClosed}>
+          <li className={styles.productos}>
             <Link to="listado/acccelulares">ACCESORIOS CELULARES</Link>
           </li>
-          <li className={styles.productos} onClick={styles.productsClosed}>
+          <li className={styles.productos}>
             <Link to="listado/repuestoscel">REPUESTOS CELULARES</Link>
           </li>
-          <li className={styles.productos} onClick={styles.productsClosed}>
+          <li className={styles.productos}>
             <Link to="listado/usados">ARTÍCULOS USADOS</Link>
           </li>
-          <li className={styles.productos} onClick={styles.productsClosed}>
+          <li className={styles.productos}>
             <Link to="listado/propios">PRODUCTOS PROPIOS</Link>
           </li>
-          <li className={styles.productos} onClick={styles.productsClosed}>
+          <li className={styles.productos}>
             <Link to="listado/outlet">OUTLET</Link>
           </li>
         </ul>
