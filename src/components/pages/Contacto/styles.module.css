@@ -1,8 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Merriweather);
 html,
 body {
 background: #f1f1f1;
-/* font-family: "Merriweather", sans-serif; */
 }
 
 h1 {
@@ -23,7 +21,6 @@ border-radius: 8px;
 display: block;
 width: 100%;
 margin-top: 1em;
-/* font-family: "Merriweather", sans-serif; */
 resize: none;
 }
 

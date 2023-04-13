@@ -15,22 +15,24 @@
     transition-duration: 1s;
 }
 
-.cuenta:hover {
+.user:hover .cuenta {
     transform: translate(-150px) rotate(360deg);
+    cursor: grab;
 }
 
 .texto1 {
     position: absolute;
     right: 0px;
     z-index: 1;
-    /* transform: translate(0); */
-    width: 100px;
+    width: 10px;
     overflow: hidden;
     background-color: blueviolet;
+    transition: transform 1s ease;
 }
 
-.texto1:hover {
-    transform: translateX(0px);
+.user:hover .texto1 {
+    transform: translateX(-50px);
+    width: 100px;
 }
 
 /* 
