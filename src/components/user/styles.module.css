@@ -1,38 +1,60 @@
-/* .user {
-    height: 100px;
-} */
+.user {
+height: 50px;
+width: 50px;
+}
 
 .bloque1 {
-    position: relative;
+position: relative;
 }
 
 .cuenta {
-    position: absolute;
-    right: 0px;
-    z-index: 2;
-    width: 50px;
-    height: 50px;
-    transition-duration: 1s;
-}
-
-.user:hover .cuenta {
-    transform: translate(-150px) rotate(360deg);
-    cursor: grab;
+position: absolute;
+right: 0px;
+z-index: 2;
+width: 50px;
+height: 50px;
+transition-duration: 1s;
 }
 
 .texto1 {
-    position: absolute;
-    right: 0px;
-    z-index: 1;
-    width: 10px;
-    overflow: hidden;
-    background-color: blueviolet;
-    transition: transform 1s ease;
+position: absolute;
+right: 0px;
+z-index: 1;
+width: 0px;
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: right;
+overflow: hidden;
+background: rgb(154, 0, 200);
+background: linear-gradient(
+    90deg,
+    rgba(154, 0, 200, 0) 14%,
+    rgba(154, 0, 200, 1) 100%
+);
+font-weight: bold;
+letter-spacing: 2px;
+-webkit-transition: width 1s, background 1s;
+    -moz-transition: width 1s, background 1s;
+    -o-transition: width 1s, background 1s;
+    transition: width 1s, background 1s;
+}
+
+#texto1 {
+    -webkit-transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    transition-timing-function: linear;
+}
+
+.user:hover .cuenta {
+transform: translate(-120px) rotate(-360deg);
+cursor: grab;
 }
 
 .user:hover .texto1 {
-    transform: translateX(-50px);
-    width: 100px;
+width: 150px;
+border-radius: 99999px;
 }
 
 /* 
@@ -49,13 +71,11 @@
     }
 } */
 
-
 /* .texto1 {
     position: relative;
     overflow: hidden;
     width: -10px;
 } */
-
 
 /* .carro {
     width: 50px;
