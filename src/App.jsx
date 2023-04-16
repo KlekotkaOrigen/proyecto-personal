@@ -12,7 +12,7 @@ function App() {
     <div className={styles.main}>
       <header className={styles.header}>
         <Logo />
-        <Input className={styles.search} />
+        <Input />
         <User className={styles.headerRight} />
       </header>
       <Menu />
