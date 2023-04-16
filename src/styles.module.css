@@ -15,7 +15,7 @@
     rgba(33,124,186,1) 50%,
     rgba(44,162,27,1) 100%
     );
-    height: 110px;
+    height: 100px;
     margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
@@ -30,6 +30,7 @@
 footer {
     position: absolute;
     bottom: 0;
+    height: 70px;
     width: 100vw;
     background: rgb(224,220,77);
     background: linear-gradient(90deg,

@@ -3,7 +3,8 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 flex-direction: row;
-padding: 20px;
+padding-right: 10px;
+padding-left: 10px;
 }
 
 .datos {
@@ -12,34 +13,22 @@ align-items: center;
 flex-direction: column;
 }
 
-.dir {
-padding: 5px;
-}
-
-.tel {
-padding: 5px;
-}
-
-.web {
-padding: 5px;
-}
-
 .insta {
-width: 90px;
-height: 90px;
+width: 50px;
+height: 50px;
 }
 
 .face {
-width: 90px;
-height: 90px;
+width: 50px;
+height: 50px;
 }
 
 .comp {
-width: 90px;
-height: 90px;
+width: 50px;
+height: 50px;
 }
 
 .whats {
-width: 90px;
-height: 90px;
+width: 50px;
+height: 50px;
 }
