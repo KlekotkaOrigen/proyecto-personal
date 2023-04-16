@@ -1,40 +1,40 @@
 .user {
-height: 50px;
-width: 50px;
+    padding-right: 10px;
 }
 
 .bloque1 {
-position: relative;
+    position: relative;
 }
 
 .cuenta {
-position: absolute;
-right: 0px;
-z-index: 2;
-width: 50px;
-height: 50px;
-transition-duration: 1s;
+    position: absolute;
+    top: -50px;
+    right: 0px;
+    padding-right: 10px;
+    width: 50px;
+    height: 50px;
+    transition-duration: 1s;
 }
 
 .texto1 {
-position: absolute;
-right: 0px;
-z-index: 1;
-width: 0px;
-height: 50px;
-display: flex;
-align-items: center;
-justify-content: right;
-overflow: hidden;
-background: rgb(154, 0, 200);
-background: linear-gradient(
-    90deg,
-    rgba(154, 0, 200, 0) 14%,
-    rgba(154, 0, 200, 1) 100%
-);
-font-weight: bold;
-letter-spacing: 2px;
--webkit-transition: width 1s, background 1s;
+    position: absolute;
+    top: -50px;
+    right: 0px;
+    width: 0px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    overflow: hidden;
+    background: rgb(154, 0, 200);
+    background: linear-gradient(
+        90deg,
+        rgba(154, 0, 200, 0) 14%,
+        rgba(154, 0, 200, 1) 100%
+    );
+    font-weight: bold;
+    letter-spacing: 2px;
+    -webkit-transition: width 1s, background 1s;
     -moz-transition: width 1s, background 1s;
     -o-transition: width 1s, background 1s;
     transition: width 1s, background 1s;
@@ -47,95 +47,67 @@ letter-spacing: 2px;
     transition-timing-function: linear;
 }
 
-.user:hover .cuenta {
-transform: translate(-120px) rotate(-360deg);
-cursor: grab;
+.bloque1:hover .cuenta {
+    transform: translate(-120px) rotate(-360deg);
+    cursor: grab;
 }
 
-.user:hover .texto1 {
-width: 150px;
-border-radius: 99999px;
+.bloque1:hover .texto1 {
+    width: 150px;
+    border-radius: 99999px;
 }
 
-/* 
-.texto1:hover {
-    animation: aparecer 1s steps(10) forwards;
-}
-
-@keyframes aparecer {
-    from {
-        width: 0;
-    }
-    to {
-        width: 100%;
-    }
-} */
-
-/* .texto1 {
+.bloque2 {
     position: relative;
-    overflow: hidden;
-    width: -10px;
-} */
-
-/* .carro {
-    width: 50px;
-    height: 50px;
-    margin: 4px;
-    transition-duration: 1s;
-}
-
-.carro:hover {
-    transform: translate(-200px) rotate(360deg);
-} */
-
-/* 
-.texto2 {
-    overflow: hidden;
-}
-
-.texto2 p {
-    width: 100%;
-    transform: translateX(200px);
-    transition: transform 0.9s ease;
-}
-
-.texto2:hover p {
-    transform: translateX(0);
-}
-*/
-
-/* .headerRow {
-    display: flex;
-    position: relative;
-}
-.headerRow>div {
-    transition-duration: 1s;
-    background-color: red;
-    max-width: 0;
-}
-.headerRow:hover>div {
-    overflow: hidden;
-    background-color: green;
-    max-width: 100vw;
-}
-.cuenta {
-    width: 50px;
-    height: 50px;
-    margin: 4px;
-    transition-duration: 1s;
-}
-
-.cuenta:hover {
-    transform: rotate(360deg);
 }
 
 .carro {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    padding-right: 10px;
     width: 50px;
     height: 50px;
-    margin: 4px;
     transition-duration: 1s;
 }
 
-.carro:hover {
-    transform: rotate(360deg);
-} */
+.texto2 {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    width: 0px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    overflow: hidden;
+    background: rgb(154, 0, 200);
+    background: linear-gradient(
+        90deg,
+        rgba(154, 0, 200, 0) 14%,
+        rgba(154, 0, 200, 1) 100%
+    );
+    font-weight: bold;
+    letter-spacing: 2px;
+    -webkit-transition: width 1s, background 1s;
+    -moz-transition: width 1s, background 1s;
+    -o-transition: width 1s, background 1s;
+    transition: width 1s, background 1s;
+}
+
+#texto2 {
+    -webkit-transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    transition-timing-function: linear;
+}
+
+.bloque2:hover .carro {
+    transform: translate(-120px) rotate(-360deg);
+    cursor: grab;
+}
+
+.bloque2:hover .texto2 {
+    width: 150px;
+    border-radius: 99999px;
+}

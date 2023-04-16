@@ -2,8 +2,8 @@ import styles from "./styles.module.css";
 
 const User = () => (
     <div className={styles.user}>
-    <div>
-        <div className={styles.bloque1}>
+    <div className={styles.bloque1}>
+        <div>
         <img
             className={styles.cuenta}
             src="/user.png"
@@ -14,7 +14,7 @@ const User = () => (
         TU CUENTA
         </div>
     </div>
-    {/* <div>
+    <div className={styles.bloque2}>
         <div>
         <img
             className={styles.carro}
@@ -23,9 +23,9 @@ const User = () => (
         />
         </div>
         <div className={styles.texto2}>
-        <p>TU CARRITO</p>
+        TU CARRITO
         </div>
-    </div> */}
+    </div>
     </div>
 );
 
