@@ -6,6 +6,8 @@ import User from "./components/user";
 import { Link, Outlet } from "react-router-dom";
 import Logo from "./components/logo"
 import Pie from "./components/pie"
+// import BuscarProductos from "./components/Prodsearch";
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
       </header>
       <Menu />
       <Outlet />
+      {/* <BuscarProductos></BuscarProductos> */}
       <footer>
         <Pie></Pie>
       </footer>
